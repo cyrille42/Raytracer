@@ -5,5 +5,7 @@ Comment sa fonctionne
 
 -Installer opencl .
 -make
--h pour les touche , echap pour les scene.
-fonctionne en 3d.
+-./Rt
+-h pour les touche , echap pour les scenes.
+
+fonctionne aussi avec des lunettes 3d.

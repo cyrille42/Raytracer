@@ -1,0 +1,24 @@
+O_EYE
+	pos: 0 ; -1300 ; -3000
+	planedist: 1600
+	dir: 0.104 ; 0.483587 ; 0.130451
+	ambiant: 0.1
+END
+
+O_PLANE
+	pos: 2500 ; 0 ; 2000
+	dir: 0 ; -1 ; 0
+	color: FFFFFFF
+END
+
+O_LIGHT
+	pos: 0 ; -900 ; 1000
+	color: 7708ea
+	intensity: 1
+END
+
+O_SPHERE
+	pos: 0 ; -400; 3000
+	rayon: 400
+	color: FF00FF
+END

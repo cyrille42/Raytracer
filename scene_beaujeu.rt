@@ -1,0 +1,193 @@
+O_EYE
+	pos: 0 ; -8000 ; -9000
+	planedist: 600
+	dir: 0 ; 0 ; 1
+	ambiant: 0.1
+END
+
+O_PLANE
+	pos: -8000 ; -5000 ; 6000
+	dir: 0 ; -1 ; 0
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 2000; 500; 0
+	cutMode: 1
+	rise: -8000; 10000; 6000; 20;
+END
+
+O_PLANE
+	pos: 8000 ; -5000 ; 6000
+	dir: 0 ; -1 ; 0
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 2000; 500; 0
+	cutMode: 1
+	rise: 8000; 10000; 6000; 20;
+END
+
+O_PLANE
+	pos: 4000 ; 2000 ; 5000
+	dir: 0.5 ; 0 ; -1
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 250; 500; 0
+	cutMode: 2
+	rise: 4000; 16000; 5000; 20;
+END
+
+O_PLANE
+	pos: -4000 ; 2000 ; 5000
+	dir: -0.5 ; 0 ; -1
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 250; 500; 0
+	cutMode: 2
+	rise: -4000; 16000; 5000; 15;
+END
+
+O_PLANE
+	pos: 500 ; 800 ; 18000
+	dir: 0 ; 1 ; 0
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 1000; 1200; 0
+	cutMode: 2
+	rise: 500; 16000; 18000; 40;
+END
+
+
+O_PLANE
+	pos: 0 ; 0 ; 26000
+	dir: 0; 0 ; -1
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 1000; 400; 0
+	cutMode: 2
+	rise: 0; 10000; 26000; 22;
+END
+
+O_PLANE
+	pos: -9000 ; 0 ; 16000
+	dir: 17; 0 ; -1
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 800; 400; 0
+	cutMode: 2
+	rise: -9000; 30000; 16000; 20;
+END
+
+O_PLANE
+	pos: 9000 ; 0 ; 16000
+	dir: 17; 0 ; -1
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+	cut: 800; 400; 0
+	cutMode: 2
+	rise: 9000; 10000; 16000; 20;
+END
+
+O_PLANE
+	pos: 0 ; 1600 ; 0
+	dir: 0 ; 1 ; 0
+	color: FFFFF
+	texture: 3
+	transparency: 1.4
+	refl: 1
+	rotate_y: 20 ; -1000 ; -0 ; 4000
+END
+
+O_LIGHT
+	pos: 0; -8000; 10000
+	color: FFFFFF
+	rotate_y: 20 ; 10000 ; 1000 ; 000
+END
+
+
+O_LIGHT
+	pos: 500; 2000; 10000
+	color: FFFFFF
+	rotate_y: 20 ; -10000 ; 1000 ; 15000
+END
+
+O_LIGHT
+	pos: -500; 2000; 10000
+	color: FFFFFF
+	rotate_y: 20 ; -10000 ; -0 ; 4000
+END
+
+O_CYLINDER
+	pos: 8000 ; 2000; 6000
+	rayon: 2000
+	dir: 0 ; -1 ; 0
+	color: FFFFFF
+	limit: 600.0;
+	cut: 8000; 0; 0
+	texture_data: gbrik;normal1;1
+	cutMode: 1
+	rise: 8000; 18000; 6000; 10;
+END
+
+O_CYLINDER
+	pos: -8000 ; 2000; 6000
+	rayon: 2000
+	dir: 0 ; -1 ; 0
+	color: FFFFFF
+	limit: 600.0;
+	cut: 8000; 0; 0
+	texture_data: gbrik;normal1;1
+	cutMode: 1
+	rise: -8000; 12000; 6000; 10;
+END
+
+O_CYLINDER
+	pos: -8000 ; 2000; 26000
+	rayon: 2000
+	dir: 0 ; -1 ; 0
+	color: FFFFFF
+	limit: 600.0;
+	cut: 8000; 0; 0
+	texture_data: gbrik;normal1;1
+	cutMode: 1
+	rise: -8000; 16000; 26000; 20;
+END
+
+O_CYLINDER
+	pos: 8000 ; 2000; 26000
+	rayon: 2000
+	dir: 0 ; -1 ; 0
+	color: FFFFFF
+	limit: 600.0;
+	cut: 8000; 0; 0
+	texture_data: gbrik;normal1;1
+	cutMode: 1
+	rise: 8000; 14000; 26000; 20;
+END
+
+O_PLANE
+	pos: 500 ; 3000 ; 5000
+	dir: 0 ; 1 ; 0
+	color: FFFFFFF
+	texture_data: gbrik;normal1;1
+END
+
+O_LIGHT
+	pos: -7500; -6000 ;4000
+	color: FF0000
+END
+
+O_LIGHT
+	pos: 7500; -6000 ;24000
+	color: FF0000
+END
+
+O_LIGHT
+	pos: -7500; -6000 ;24000
+	color: FF0000
+END
+
+O_LIGHT
+	pos: 7500; -6000 ;4000
+	color: FF0000
+END
+
+

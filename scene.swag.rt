@@ -1,0 +1,68 @@
+O_EYE
+	pos: 0 ; 0 ; -2000
+	planedist: 600
+	dir: 0 ; 0 ; 1
+	ambiant: 0.1
+END
+
+O_LIGHT
+	pos: 500 ; 200 ; 700
+	color: FF
+	intensity: 1
+END
+
+O_SPHERE
+	pos: 500 ; 200; 1200
+	rayon: 200
+	color: FF
+	limit: 500
+	texture_data: gbrik;normal3;1
+END
+
+O_SPHERE
+	pos: 200 ; 200; 1200
+	rayon: 200
+	color: FF
+	limit: 500
+	texture_data: gbrik;normal3;10
+END
+
+O_PLANE
+	pos: 0; 0; 6000
+	dir: 0; 0; -1
+	color: 0xFF00FF
+	refl: 1
+	texture: 1
+END
+
+
+O_PLANE
+	pos: 0; 0; -6000
+	dir: 0; 0; 1
+	color: 0xFF00FF
+	refl: 0
+	texture: 1
+END
+
+O_SPHERE
+	pos: -1500 ; 0; 2500
+	rayon: 100
+	color: FFFFFF
+	texture: 3
+END
+
+O_SPHERE
+	pos: 0 ; -1500; 2500
+	rayon: 300
+	color: 00FFFF
+	texture: 3
+END
+
+O_SPHERE
+	pos: 2500 ; -1500; 2500
+	rayon: 500
+	color: FF0000
+	texture_data: rcargou;normal;1
+	scaling: 5 ; 100 ; 800
+END
+

@@ -1,0 +1,40 @@
+O_EYE
+	pos: 0 ; 0 ; -6000
+	planedist: 600
+	dir: 0 ; 0 ; 1
+	ambiant: 0.05
+END
+
+O_LIGHT
+	pos: 0 ; 2000 ; 0
+	color: FFFFFF
+	dir: 0; 0; 1;	
+END
+
+
+
+O_LIwGHT
+	pos: 0 ; -2000 ; 0
+	color: FFFFFF
+END
+
+
+O_PeLANE
+	color: FFFFFF
+	pos: 0; 0; 1000
+	dir: 0; 0; -1
+END
+
+O_PLANE
+	color: FFFFFF
+	pos: -1000; 0; 0
+	dir: 1; 0; -1
+	texture: 2
+END
+
+O_PLANE
+	color: FFFFFF
+	pos: 1000; 0; 0
+	dir: -1; 0; -1
+	texture: 2
+END

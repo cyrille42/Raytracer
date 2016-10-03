@@ -1,0 +1,78 @@
+O_EYE
+	pos: 400 ; 280.1 ; -3000
+	planedist: 1600
+	dir: 0 ; 0 ; 1
+	ambiant: 0.1
+END
+
+
+O_LIGHT
+	pos: -1000 ; 0 ; 2000
+	color: FFFFFF
+	intensity: 1
+END
+
+O_LIGHT
+	pos: 1000 ; 0 ; -2000
+	color: FFFFFF
+	intensity: 1
+END
+
+
+O_CYLINDER
+	pos: -100 ; 200; 0
+	rayon: 50
+	dir: 0.12 ; -0.494 ; 0.782
+	color: FFFFFF
+	texture_data: gbk;normal4;1
+	refl: 1
+END
+
+
+O_CYLINDER
+	pos: 890 ; 200; 0
+	rayon: 50
+	dir: -0.12 ; -0.494 ; 0.782
+	refl: 1
+		texture_data: gbk;normal4;1
+	color: FFFFFF
+END
+
+O_PLANE
+	pos: 0 ; 1300 ; 50
+	dir: 0 ; 1 ; 0
+	color: FFFFF
+	texture: 3
+	transparency: 1.4
+	refl: 1
+	rotate_y: 20 ; -1000 ; -0 ; 4000
+END
+
+O_SPHERE
+	pos: 1000 ; 0; 50
+	rayon: 600
+	color: 00FFFF
+	transparency: 1.4
+	refl: 1
+	texture_data: gbrik;normal5;1
+	rotate_y: 1000 ; 1000 ; -0 ; 4000
+END
+
+O_SPHERE
+	pos: 0 ; -1300; 50
+	rayon: 600
+	color: 00FFFF
+	transparency: 1.4
+	refl: 1
+	texture_data: cpla;normal5;1
+	rotate_y: 200 ; -1000 ; -0 ; 4000
+END
+
+O_CONE
+	pos: 1550 ; 0 ; 60
+	dir: 0 ; 1 ; 0
+	alpha: 0.5
+	color: FF
+	limit: 300.0;
+	texture_data: eoc;ecorce;2
+END

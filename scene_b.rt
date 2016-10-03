@@ -1,0 +1,76 @@
+O_EYE
+	pos: 400 ; 280 ; -4000
+	planedist: 1600
+	dir: 0 ; 0 ; 1
+END
+
+O_LIGHT
+	pos: 200 ; 800 ; -200
+	color: FFFFFF
+	intensity: 1
+END
+
+O_LIGHT
+	pos: -2400 ; 800 ; -200
+	color: FFFFFF
+	intensity: 1
+END
+
+O_SPHERE
+	pos: -500 ; 200; 1200
+	rayon: 200
+	color: FFF
+END
+
+O_SPHERE
+	pos: 500 ; 200; 1200
+	rayon: 200
+	color: FF
+END
+
+O_SPHERE
+	pos: 420 ; 200 ; 1200
+	rayon: 100
+	color: FF001F
+END
+
+
+O_SPHERE
+	pos: 600 ; 400 ; 2000
+	rayon: 1000
+	color:  EAF0
+	texture_data: earth;normale;1
+	rotate_y: -300000 ; 1000 ; 1000 ; 4000
+END
+
+O_SPHERE
+	pos: 700 ; 600 ; 2000
+	rayon: 100
+	color:  D00515
+	texture: 3
+	scaling: 10 ; 100 ; 150
+END
+O_SPHERE
+	pos: 1000 ; 200 ; 2000
+	rayon: 100
+	color:  B1ADE5
+	scaling: 1 ; 100 ; 150
+END
+
+O_SPHERE
+	pos: 800 ; 900 ; 1800
+	rayon: 100
+	color:  E12525
+END
+O_SPHERE
+	pos: 800 ; 500 ; 1800
+	rayon: 100
+	color:  EAFB50
+END
+
+O_SPHERE
+	pos: 800 ; 100 ; 1800
+	rayon: 100
+	color:  EAFB50
+END
+

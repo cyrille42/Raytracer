@@ -1,0 +1,61 @@
+O_EYE
+	pos: 0 ; 0 ; -4000
+	planedist: 600
+	dir: 0 ; 0 ; 1
+	ambiant: 0.05
+END
+
+O_LIGHT
+	pos: 0 ; 0 ; 1000
+	color: FF0000
+	intensity: 0.1
+	rotate_y: -2 ; 3000 ; 1000 ; 4000
+END
+
+O_LIGHT
+	pos: 1000 ; 0 ; 1000
+	color: 00FF00
+	intensity: 0.1
+	rotate_y: -3 ; 3000 ; 1000 ; 4000
+END
+
+O_LIGHT
+	pos: 2000 ; 0 ; 100
+	color: 0000FF
+	intensity: 0.1
+	rotate_y: 2 ; 3000 ; 1000 ; 4000
+END
+
+O_SPHERE
+	pos: 0 ; 0; 2500
+	rayon: 300
+	color: FFFFFF
+	texture: 3
+	refl: 1
+	scaling: 10 ; 300 ; 800
+END
+
+O_SPHERE
+	pos: 1000 ; 0; 5000
+	rayon: 200
+	color: FFFFFF
+	texture: 3
+	refl: 1
+	scaling: 1 ; 300 ; 800
+END
+
+O_SPHERE
+	pos: -1000 ; 0; 2500
+	rayon: 300
+	color: FFFFFF
+	texture: 1
+	refl: 1
+	rotate_y: 2 ; 3000 ; 1000 ; 4000
+END
+
+O_PLANE
+	pos: 1000; 1000; 16000
+	dir: 0; 0; -1
+	color: FFFFFF
+	refl: 1
+END

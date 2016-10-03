@@ -1,0 +1,107 @@
+O_EYE
+	pos: 0 ; 0 ; 0
+	planedist: 600
+	dir: 0 ; 0 ; 1
+	ambiant: 0
+END
+
+O_PLANE
+	color: FFFFFF
+	refl: 1
+	pos: 0; 0; 10000;
+	dir: 0; 0; -1
+END
+
+
+O_PLANE
+	color: FFFFFF
+	refl: 1
+	pos: 0; 0; -10000
+	dir: 0; 0; 1
+END
+
+
+O_PLANE
+	color: FFFFFF
+	refl: 1
+	pos: 0; 10000; 0
+	dir: 0; 1; 0
+END
+
+
+O_PLANE
+	color: FFFFFF
+	refl: 1
+	pos: 0; -10000; 0
+	dir: 0; -1; 0
+END
+
+
+
+O_PLANE
+	color: FFFFFF
+	refl: 1
+	pos: 10000; 0; 0
+	dir: -1; 0; 0
+END
+
+
+O_PLANE
+	color: FFFFFF
+	refl: 1
+	pos: -10000; 0; 0
+	dir: 1; 0; 0
+END
+
+
+O_LIGHT
+	pos: 0; -4000; 0
+	color: FFFF
+	rotate_y: 30 ;1000 ; 5000 ; 5000
+END
+
+O_LIGHT
+	pos: 0; 4000; 0
+	color: FF00FF
+	rotate_y: -30 ;1000 ; 5000 ; 5000
+END
+
+O_SPHERE
+	pos: 0; 0 ;0
+	color: FFFFFF
+	refl: 1
+	rayon: 1000
+	rotate_y: 30 ;1000 ; 5000 ; 5000
+END
+
+O_SPHERE
+	pos: 0; 3000 ;0
+	color: FFFF
+	refl: 1
+	rayon: 1000
+	rotate_y: 30 ;1000 ; 5000 ; 0
+END
+
+O_SPHERE
+	pos: 0; -3000 ;0
+	color: FF00FF
+	refl: 1
+	rayon: 1000
+	rotate_y: 30 ;1000 ; 5000 ; -5000
+END
+
+O_SPHERE
+	pos: 0; 0 ;0
+	color: FFFF00
+	refl: 1
+	rayon: 1000
+	rotate_y: 30 ;3000 ; -3000 ; 3000
+END
+
+O_CYLINDdqwER
+	pos: 0; 0; 0
+	dir: 0; 1; 0
+	color: FFFF
+	rayon: 2000
+	rotate_y: -30 ;1000 ; -3000 ; 3000
+END

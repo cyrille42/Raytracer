@@ -1,0 +1,101 @@
+O_EYE
+	pos: 0 ; -400 ; 0
+	planedist: 1600
+	dir: 0 ; 0; 1
+	ambiant: 0.1
+END
+
+O_PLANE
+	pos: 2500 ; 0 ; 12000
+	dir: 0 ; -1 ; 0
+	color: FFFFFFF
+END
+
+O_LIGHT
+	pos: 0 ; -900 ; -1000
+	color: FFFFFF
+	intensity: 1
+END
+
+O_SPHERE
+	pos: 0 ; -400; 3000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -20
+END
+
+O_SPHERE
+	pos: 400 ; -400; 3000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -60
+END
+
+O_SPHERE
+	pos: -400 ; -400; 3000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -40
+END
+
+O_PLANE
+	pos: 0; 0; 4000
+	dir: 0; 0; -1
+	color: F00FF
+END
+
+O_SPHERE
+	pos: 800 ; -400; 2000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; 20
+END
+
+O_SPHERE
+	pos: -800 ; -400; 2000
+	rayon: 100
+	color: FF00FF
+	translation: 0 ; 0 ; 40
+END
+
+O_SPHERE
+	pos: 0 ; -400; -6000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; 20
+END
+
+O_SPHERE
+	pos: -400 ; -400; -6000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; 40
+END
+
+O_SPHERE
+	pos: -800 ; -400; 10000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -50
+END
+
+O_SPHERE
+	pos: 0 ; -400; 10000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -100
+END
+
+O_SPHERE
+	pos: 800 ; -400; 10000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -50
+END
+
+O_SPHERE
+	pos: 200 ; -400; 10000
+	rayon: 100
+	color: FFFFFF
+	translation: 0 ; 0 ; -100
+END

@@ -1,6 +1,8 @@
 # Raytracer
 raytracer sur gpu (opencl)
 
+OS : Mac
+
 Comment sa fonctionne
 
 -Installer opencl .

@@ -16,4 +16,4 @@ Comment sa fonctionne
 fonctionne aussi avec des lunettes 3d.
 
 
-https://www.youtube.com/watch?v=cJU9cekG7do Pour une video de presentation des scenes.
+https://www.youtube.com/watch?v=cJU9cekG7do Pour une video de presentation des scenes (penser a réduire le son).

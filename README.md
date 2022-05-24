@@ -1,19 +1,22 @@
 # Raytracer
-raytracer sur gpu (opencl)
+
+raytracer sur gpu (opencl). 3 semaines de travail à 3.
 
 OS : Mac
 
-Comment sa fonctionne
+Comment ça fonctionne:
 
--Installer opencl .
+- Installer opencl
 
--make
+- Cloner de répo
 
--./Rt
+- Faire 'make' à la racine du dossier
 
--h pour les touche , echap pour les scenes.
+- écrire './Rt' à la racine du dossier
+
+- h pour les touches , échap pour les scénes.
 
 fonctionne aussi avec des lunettes 3d.
 
 
-https://www.youtube.com/watch?v=cJU9cekG7do Pour une video de presentation des scenes (penser a réduire le son).
+https://www.youtube.com/watch?v=cJU9cekG7do Pour une video de presentation des scénes (penser a réduire le son).
